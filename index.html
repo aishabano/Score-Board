@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id='home-box'>
+                <h3>HOME</h3>
+                <h1 id='count-home'>Begin!</h1>
+                <button id='points' onclick='incrementByOneH()'>+1</button>
+                <button id='points' onclick='incrementByTwoH()'>+2</button>
+                <button id='points'  onclick='incrementByThreeH()'>+3</button>
+                
+            </div>
+            <div id='guest-box'>
+                <h3>GUEST</h3>
+                <h1 id='count-guest'>Begin!</h1>
+                <button id='points' onclick='incrementByOneG()'>+1</button>
+                <button id='points' onclick='incrementByTwoG()'>+2</button>
+                <button id='points' onclick='incrementByThreeG()'>+3</button>
+                
+            </div>
+        </div>
+        <button id='reset' onclick='reset()'>RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>

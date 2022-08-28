@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: burlywood
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+h3{
+    color: red;
+}
+h1 {
+    text-align:center;
+    border:100px;
+    border-color:red;
+    margin:10px;
+    font-family: 'Gill Sans';
+    background-color: darkorange;
+    color:yellow;
+    }
+#reset{
+    color:red;
+    background-color: greenyellow;
+    border: 1x solid green;
+    display:flex;
+    margin:25px auto;
+
+}
+#home-box{
+    margin:auto;
+}
+
+#guest-box{
+    margin:auto;
+}
+
+#points{
+   background-color: pink;
+   border-color: red;
+   border-width: 3px; 
+   border-radius: 20px
+}
